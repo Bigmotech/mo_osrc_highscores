@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_lookup(self):
         stats = Highscores.getHighScores("")
-
+        print("Hello")
         print(stats.HighScores)
         print(stats.Boss)
         print(stats.Skills)
