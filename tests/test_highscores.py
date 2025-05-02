@@ -10,10 +10,10 @@ class MyTestCase(unittest.TestCase):
 
     def test_error(self):
         with self.assertRaises(NameNotFoundException):
-            ParsePage.request_page('y7nh56')
+            ParsePage.request_page('')
 
     def test_lookup(self):
-        stats = Highscores.getHighScores("rsb perpdoom")
+        stats = Highscores.getHighScores("")
 
         print(stats.HighScores)
         print(stats.Boss)
