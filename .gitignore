@@ -164,7 +164,7 @@ cython_debug/
 PKG-INFO
 pyproject.toml
 setup.cfg
-setup.pyS
+setup.py
 .editorconfig
 .idea
 .github
