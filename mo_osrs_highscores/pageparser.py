@@ -50,7 +50,7 @@ class ParsePage:
                 xp = xpString if xpString.isnumeric() else -1
                 BallsAndPenis.add_skill(name, rank, level, xp)
             elif(MinigameFlag):
-                if(attributes[1].text.strip() == "Rifts closed"):
+                if(attributes[1].text.strip() == "Collections Logged"):
                     MinigameFlag = False
 
                 name = attributes[1].text.strip()
